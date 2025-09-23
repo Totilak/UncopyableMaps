@@ -1,0 +1,7 @@
+name: UncopyableMaps
+version: ${version}
+main: ru.edenor.uncopyableMaps.UncopyableMaps
+api-version: '1.21.7'
+authors: [ Totilak ]
+description: desc
+folia-supported: true
