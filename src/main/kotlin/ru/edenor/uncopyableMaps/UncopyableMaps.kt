@@ -53,7 +53,7 @@ class UncopyableMaps : JavaPlugin(), Listener {
     meta.persistentDataContainer.set(uncopyableKey, PersistentDataType.STRING, event.player.name)
 
     val lore = meta.lore()?.toMutableList() ?: mutableListOf()
-    lore.add(Component.text("Автор: ${event.player.name}"))
+    lore.add(Component.text("Автор: ${event.player.name}", NamedTextColor.GRAY))
     lore.add(Component.text("Нельзя копировать", NamedTextColor.RED))
     meta.lore(lore)
 
