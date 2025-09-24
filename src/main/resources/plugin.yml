@@ -3,5 +3,6 @@ version: ${version}
 main: ru.edenor.uncopyableMaps.UncopyableMaps
 api-version: '1.21.7'
 authors: [ Totilak ]
+contributors: [WesOrangePower]
 description: desc
 folia-supported: true
